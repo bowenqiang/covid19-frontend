@@ -54,7 +54,7 @@ const Home = () => {
             <Cards covid19Data={covid19Data} />
             <CountryPicker countries={countries} handleCountryChange={handleCountryChange} />
             <Chart dailyData={dailyData} covid19Data={covid19Data}/>
-            <footer className={styles.footer}>Created by bowenqiang@gmail, Data Source: covid19api, mathdroid</footer>
+            <footer className={styles.footer}>Created by bowenqiang@gmail</footer>
         </div>
     );
 }
