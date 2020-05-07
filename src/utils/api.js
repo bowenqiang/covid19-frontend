@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { parseDailyData } from './utils';
 
-const ENDPOINT = 'http://localhost:4041/api';
+const ENDPOINT = process.env.NODE_ENV === 'production' ? 'http://home.link2awesome.ml:4041/api' : 'http://localhost:4041/api';
 
 export const fetchCountries = async (callback) => {
     let url = `${ENDPOINT}/countryRef`;
