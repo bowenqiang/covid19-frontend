@@ -63,7 +63,7 @@ export const chartDataHelper = (dailyData, covid19Data, lineOrPie) => {
                         '#12e02d',
                         '#e82b09',
                     ],
-                    data: [covid19Data.confirmed, covid19Data.recovered, covid19Data.deaths],
+                    data: [covid19Data.Confirmed, covid19Data.Recovered, covid19Data.Deaths],
                 }
             ]
         }
